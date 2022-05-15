@@ -12,8 +12,5 @@ def fib(n):
 
 
 if __name__ == '__main__':
-    n = input('Input int num:')
-    if type(int(n)) is int:
+        n = input('Input int num:')
         print(fib(int(n)))
-    else:
-        print('Num must be type `int`')
