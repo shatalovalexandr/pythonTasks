@@ -31,13 +31,10 @@ class VigenereCipher(object):
         return ciph
 
 
-# abc = "abcdefghijklmnopqrstuvwxyz"
-# key = "password"
+abc = "abcdefghijklmnopqrstuvwxyz"
+key = "password"
 
-abc = 'ンワラヤマハナタサカアリミヒニチシキイルユムフヌツスクウレメヘネテセケエヲロヨモホノトソコオ'
-key = 'カタカナ'
 c = VigenereCipher(key, abc)
 
-# print(c.encode('CODEWARS'))
-print(c.encode('カタカナ'))
-# print(c.decode('rovwsoiv'))
+print(c.encode('CODEWARS'))
+print(c.decode('rovwsoiv'))
